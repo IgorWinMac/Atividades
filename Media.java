@@ -26,15 +26,15 @@ public class Media {
 		media = (nota1 + nota2 + nota3 + nota4) / 4;
 		
 		if(media > 5 && media < 6) {
-			System.out.println("REPROVADO! A média é: "+media);
-		}else if(media > 6 && media < 7) {
-			System.out.println("RECUPERAÇÃO! A média é: "+media);
-		}else if(media > 7 && media < 9.99) {
-			System.out.println("APROVADO! A média é: "+media);
+			System.out.println("REPROVADO! A mÃ©dia Ã©: "+media);
+		}else if(media >= 6 && media < 7) {
+			System.out.println("RECUPERAÃ‡ÃƒO! A mÃ©dia Ã©: "+media);
+		}else if(media >= 7 && media < 10) {
+			System.out.println("APROVADO! A mÃ©dia Ã©: "+media);
 		}else if(media == 10) {
-			System.out.println("APROVADO COM HONRAS! A média é: "+media);
+			System.out.println("APROVADO COM HONRAS! A mÃ©dia Ã©: "+media);
 		}else {
-			System.out.println("Média Insuficiente! A média é: "+media);
+			System.out.println("MÃ©dia Insuficiente! A mÃ©dia Ã©: "+media);
 		}
 		
 		entrada.close();
