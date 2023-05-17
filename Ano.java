@@ -14,10 +14,10 @@ public class Ano {
 		System.out.println("Informe o ano que deseja verificar: ");
 		ano = entrada.nextInt();
 		
-		if(ano%4==0) {
+		if(ano%4==0 || ano%400==0) {
 			System.out.println("Ano Bissexto!");
 		}else {
-			System.out.println("N√O È um ano Bissexto!");
+			System.out.println("N√ÉO √© um ano Bissexto!");
 		}
 		
 		entrada.close();
